@@ -30,7 +30,7 @@
         <h2>事業内容</h2>
         <ul class="service-list">
           <li class="service">
-            <img src="images/ses.jpg" alt="SES事業" />
+             <img src="SES.jpg" alt="SES事業" class="business-img" />
             <h3>SES事業</h3>
             <ul>
               <li>求めるレベルのエンジニアをご紹介</li>
@@ -39,7 +39,7 @@
             </ul>
           </li>
           <li class="service">
-            <img src="images/foreign.jpg" alt="外国人人材紹介" />
+            <img src="外国人材.jpg" alt="外国人人材紹介" class="business-img" />
             <h3>外国人人材紹介</h3>
             <ul>
               <li>即戦力の補填が可能</li>
@@ -48,7 +48,7 @@
             </ul>
           </li>
           <li class="service">
-            <img src="images/cleaning.jpg" alt="清掃業" />
+           <img src="清掃.jpg" alt="清掃業" class="business-img" />
             <h3>清掃業</h3>
             <ul>
               <li>日常清掃・特殊清掃など幅広く対応</li>
@@ -57,7 +57,7 @@
             </ul>
           </li>
           <li class="service">
-            <img src="images/ai_training.webp" alt="AI導入支援" />
+           <img src="file:///C:/Users/USER/Desktop/project1/AI%E7%A0%94%E4%BF%AE.webp" alt="AI導入支援" class="business-img" />
             <h3>AI導入支援</h3>
             <ul>
               <li>企業向けAI研修eラーニング研修（生成AIツール活用を12時間で、定価40万円だが助成金も活用して学ぶことが出来る）</li>
@@ -68,18 +68,23 @@
       </div>
     </section>
 
-    <!-- 代表紹介 -->
-    <section class="about">
-      <div class="container">
-        <h2>代表紹介</h2>
-        <img src="images/ceo.jpg" alt="代表 井村隆之" class="rep-img" />
-        <h3>井村 隆之</h3>
-        <p class="rep-message">
-          「挑戦を支援する」「挑戦を楽しむ」を大切に、一人ひとりの可能性を最大限に引き出すことを目指しています。<br>
-          新しい技術、新しい人材、新しい働き方…未来を切り拓くその一歩を、全力でサポートいたします。
-        </p>
-      </div>
-    </section>
+     <!-- 代表紹介 -->
+  <section class="executive container">
+    <h2>代表紹介</h2>
+    <div class="exec-card">
+      <img src="https://i.imgur.com/VVI6FN3.jpeg" alt="井村 隆之" />
+      <p><strong>代表取締役</strong><br>井村 隆之</p>
+    </div>
+  </section>
+
+  <!-- 代表メッセージ -->
+  <section class="message container">
+    <h2>代表メッセージ</h2>
+    <p>「挑戦を支援する」「挑戦を楽しむ」を大切に、<br>
+    一人ひとりの可能性を最大限に引き出すことを目指しています。<br>
+    新しい技術、新しい人材、新しい働き方…<br>
+    未来を切り拓くその一歩を、全力でサポートいたします。</p>
+  </section>
 
     <!-- 会社情報 -->
     <section class="company">
@@ -109,33 +114,31 @@
 
           <table id="formtable">
             <tr id="caption"><th colspan="2">問い合わせ・お申し込み</th></tr>
-            <tr id="sec_seimei1:seimei2">
+            <tr>
               <th>姓名<span class="required">必須</span></th>
               <td>
-                （姓）<input type="text" name="seimei1" style="width:60px" id="seimei1" required />
-                （名）<input type="text" name="seimei2" style="width:60px" id="seimei2" required />
+                （姓）<input type="text" name="seimei1" style="width:60px" required />
+                （名）<input type="text" name="seimei2" style="width:60px" required />
               </td>
             </tr>
-            <tr id="sec__seimei1:_seimei2">
+            <tr>
               <th>フリガナ<span class="required">必須</span></th>
               <td>
-                （セイ）<input type="text" name="_seimei1" style="width:60px" id="_seimei1" required />
-                （メイ）<input type="text" name="_seimei2" style="width:60px" id="_seimei2" required />
+                （セイ）<input type="text" name="_seimei1" style="width:60px" required />
+                （メイ）<input type="text" name="_seimei2" style="width:60px" required />
               </td>
             </tr>
-            <tr id="sec_mail">
-              <th>メールアドレス <span class="required">必須</span></th>
-              <td><input type="email" name="mail" id="mail" required /></td>
+            <tr>
+              <th>メールアドレス<span class="required">必須</span></th>
+              <td><input type="email" name="mail" required /></td>
             </tr>
-            <tr id="sec_co">
-              <th>会社名（団体名） <span class="required">必須</span></th>
-              <td><input type="text" name="co" id="co" required /></td>
+            <tr>
+              <th>会社名（団体名）<span class="required">必須</span></th>
+              <td><input type="text" name="co" required /></td>
             </tr>
-            <tr id="sec_free1">
-              <th>フリー項目1 <span class="required">必須</span></th>
-              <td>
-                <input type="text" name="free1" value="eラーニング研修受講希望の有無（希望するor希望しない）" id="free1" required />
-              </td>
+            <tr>
+              <th>フリー項目1<span class="required">必須</span></th>
+              <td><input type="text" name="free1" value="eラーニング研修受講希望の有無（希望するor希望しない）" required /></td>
             </tr>
           </table>
 
@@ -143,8 +146,7 @@
             <input class="OF_submit_btn1" type="button" value="　確　認　" onclick="OF_submit()" />
           </div>
           <div id="copyright">
-            Powered by 
-            <a href="https://form.orange-cloud7.net/" target="_blank">メールフォーム 『オレンジフォーム』</a>
+            Powered by <a href="https://form.orange-cloud7.net/" target="_blank">メールフォーム 『オレンジフォーム』</a>
           </div>
         </form>
       </div>
@@ -160,5 +162,6 @@
 
 </body>
 </html>
+
 
 

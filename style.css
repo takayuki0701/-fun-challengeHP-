@@ -8,9 +8,9 @@
 /* Base */
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  line-height: 1.8;
   background-color: #fff8f4;
   color: #333;
+  line-height: 1.8;
 }
 .container {
   width: 90%;
@@ -84,11 +84,10 @@ header .catchcopy {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   text-align: center;
 }
-.about .rep-img {
+.rep-img {
   width: 150px;
-  height: auto;
   border-radius: 50%;
-  margin: 0 auto 16px;
+  margin-bottom: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 .about h3 {
