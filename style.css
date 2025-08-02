@@ -1,0 +1,150 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.8;
+  background-color: #fff8f4;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ff6f3c;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #ff6f3c, #ff9f68);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+header .catchcopy {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* Services */
+.services {
+  background-color: #ffffff;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+}
+.service {
+  flex: 1 1 calc(50% - 30px);
+  text-align: center;
+}
+.service img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 0 auto 16px;
+}
+.service h3 {
+  font-size: 1.5rem;
+  color: #ff6f3c;
+  margin-bottom: 12px;
+}
+.service ul {
+  list-style: none;
+}
+.service ul li {
+  margin: 4px 0;
+}
+
+/* About */
+.about {
+  background-color: #ffffff;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.about .rep-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.about h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+.rep-message {
+  padding: 0 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Company */
+.company {
+  background-color: #ffffff;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.company-list {
+  list-style: none;
+}
+.company-list li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+/* Contact Form */
+.contact-form {
+  background-color: #ffffff;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+#formtable th {
+  background-color: #ff6f3c;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+#formtable td {
+  padding: 10px;
+}
+.required {
+  color: red;
+}
+.OF_center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff6f3c;
+  color: white;
+  margin-top: 40px;
+}
